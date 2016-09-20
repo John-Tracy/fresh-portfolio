@@ -13,23 +13,30 @@ html, body {
 	height: 700px;
 	z-index: -2000;
 	background: url('../imgs/code-shot.png') top center no-repeat;
-	opacity: 0.8;
+	opacity: 0.6;
 	position: absolute;
 }
 #header-content {
 	padding-top: 100px;
+	padding-bottom: 10%;
 	background: transparent;
 	color: #efefef;
 	width: 100%;
 	z-index: 1;
 	position: relative;
 }
-.jumbotron p {
-	text-align: right;
+.jumbotron h1 {
+	color: #3BD4C9;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+.jumbotron h3 {
+	color: #3BD4C9;
+	float: right;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 #bio-content {
 	width: 100%;
-	height: 500px;
+	height: 900px;
 	background-color: #efefef;
 }
 .media {
@@ -42,4 +49,35 @@ html, body {
 	padding-top: 20%;
 	padding-left: 3%;
 	padding-right: 3%;
+}
+
+#work-content {
+	background-color: #555555; 
+	width: 100%;
+	height: auto;
+}
+#fe, #fs, #be {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: transparent;
+}
+#fe a, #fs a, #be a{
+	color: #efefef;
+}
+#fe a:hover, #fs a:hover, #be a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#project {
+	margin-top: 25%;
+	text-align: center;
+}
+footer {
+	color: #efefef;
+	width: 100%;
+	height: 200px;
 }
