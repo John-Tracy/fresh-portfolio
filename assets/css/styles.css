@@ -35,24 +35,23 @@ html, body {
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 #bio-content {
+	padding: 5%;
 	width: 100%;
-	height: 900px;
-	background-color: #efefef;
+	height: auto;
+	background-color: #999999;
 }
-.media {
-	padding: 20px;
-}
+
 .navbar {
 	margin-bottom: 0px;
 }
 .media-body {
-	padding-top: 20%;
+	padding-top: 20px;
 	padding-left: 3%;
 	padding-right: 3%;
 }
 
 #work-content {
-	background-color: #555555; 
+	background-color: #555; 
 	width: 100%;
 	height: auto;
 }
@@ -64,20 +63,60 @@ html, body {
 	text-align: center;
 	background-color: transparent;
 }
+
 #fe a, #fs a, #be a{
-	color: #efefef;
+	color: #777;
+}
+#fe a:focus, #fs a:focus, #be a:focus {
+	text-decoration: none;
+	
 }
 #fe a:hover, #fs a:hover, #be a:hover {
 	text-decoration: none;
 	cursor: pointer;
+	color: #efefef;
+}
+
+#fe, #fs, #be {
+  position: relative;
+  
+}
+#fe img, #fs img, #be img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#fe a:hover img, #fs a:hover img, #be a:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #project {
 	margin-top: 25%;
 	text-align: center;
 }
-footer {
+
+#top-foot {
+	width: 100%;
+	height: 200px;
+
+}
+#bottom {
+	width: 100%;
+	height: auto;
+	background-color: #333333;
+}
+#sig {
+	margin-bottom: 0px;
+	font-size: 20px;
 	color: #efefef;
+	padding-left: 10%;
+}
+footer {
+	background-color: #efefef;
 	width: 100%;
 	height: 200px;
 }
