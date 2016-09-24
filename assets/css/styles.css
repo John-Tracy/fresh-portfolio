@@ -14,24 +14,33 @@ html, body {
 	z-index: -2000;
 	background: url('../imgs/code-shot.png') top center no-repeat;
 	opacity: 0.6;
+		background-attachment: fixed;
+		background-size: cover; 
 	position: absolute;
 }
 #header-content {
-	padding-top: 100px;
-	padding-bottom: 10%;
-	background: transparent;
-	color: #efefef;
-	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: #555;
+	opacity: 0.7;
+	width: 40%;
+	height: 20%;
 	z-index: 1;
 	position: relative;
+	border-radius: 0px;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+
 }
 .jumbotron h1 {
 	color: #3BD4C9;
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
-.jumbotron h3 {
+.jumbotron p {
 	color: #3BD4C9;
-	float: right;
+	
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 #bio-content {
@@ -85,14 +94,14 @@ html, body {
   position: relative;
   
 }
-#fe img, #fs img, #be img {
+#fe img, #fs img, #be img, #fe h3, #fs h3, #be h3 {
   max-width: 100%;
   
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-#fe a:hover img, #fs a:hover img, #be a:hover img {
+#fe a:hover img, #fs a:hover img, #be a:hover img, #fe a:hover h3, #fs a:hover h3, #be a:hover h3 {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
