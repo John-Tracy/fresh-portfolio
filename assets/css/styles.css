@@ -51,8 +51,14 @@ html, body {
 }
 #bio-content {
 	padding: 5%;
+	width: 100%;
 	height: auto;
 	background-color: #999999; 
+	text-align: center;
+	overflow-x: scroll;
+}
+#bio-content .media-object {
+
 }
 .navbar {
 	margin-bottom: 0px;
