@@ -45,7 +45,7 @@ html, body {
 	/*text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);*/
 }
 .trans-content {
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	background-color: transparent;
 }
@@ -57,8 +57,11 @@ html, body {
 	text-align: center;
 	overflow-x: scroll;
 }
-#bio-content .media-object {
-
+#personal-heading {
+	color: #ffffff;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 .navbar {
 	margin-bottom: 0px;
@@ -77,7 +80,7 @@ html, body {
 }
 
 #work-content {
-	background-color: transparent; 
+	background-color: #777777; 
 	width: 100%;
 	height: auto;
 }
@@ -159,7 +162,16 @@ html, body {
 	float: right;
 	padding-right: 2%;
 }
-
+.descript {
+	color: #efefef;
+	padding-top: 5%;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+.descript span {
+	font-size: 50px;
+}
 footer {
 	background-color: #333333;
 	width: 100%;
@@ -167,5 +179,16 @@ footer {
 	padding: 2%;
 }
 .port-content {
+	text-align: center;
+}
+
+#edu {
+	width: 100%;
+	height: 300px;
+	background-color: #EAE7D6;
+}
+
+#edu-head {
+	color: #333333;
 	text-align: center;
 }
