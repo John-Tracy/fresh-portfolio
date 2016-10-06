@@ -12,7 +12,7 @@ html, body {
 #bg-holder {
 	width: 100%;
 	height: 100%;
-	z-index: -2000;
+	/*z-index: -2000;*/
 	background: url('../imgs/code-shot.png') top center repeat;
 	opacity: ;
 	background-attachment: scroll;
@@ -22,11 +22,11 @@ html, body {
 #header-content {
 
 	padding: 0%;
-	background: #555;
+	background: transparent;
 	opacity: ;
 	width: 30%;
-	height: 20%;
-	z-index: 1;
+	height: 200px;
+	z-index: ;
 	position: relative;
 	border-radius: 0px;
 	margin: auto;
@@ -66,6 +66,16 @@ html, body {
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0;
+}
+.navbar-brand {
+	margin-left: 10%;
+}
+#branding {
+	color: #efefef;
+	list-style: none;
+}
+#branding:hover {
+	color: #efefef;
 }
 .port {
 	background-color: rgb(85, 85, 85);
